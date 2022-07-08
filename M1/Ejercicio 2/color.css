@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Montserrat:wght@400;600;700;900&family=MuseoModerno:wght@400;700&display=swap');
+body{
+  background-color: black;
+  text-align: center;
+}
+h4{
+  font-family: Montserrat, black;
+  font-size: 50pt;
+  color: white;
+}
+
+h1{
+  font-family: Montserrat, black;
+  font-size: 148pt;
+  background-color: white;
+}
+h2{
+  font-family: Montserrat, black;
+  font-size: 163pt;
+  background-color: black;
+  color: white;
+}
+h3{
+  font-family: Montserrat, black;
+  font-size: 45pt;
+  background-color: white;
+}
+h3 span{
+  font-family: Montserrat, semibold;
+  font-size: 36pt;
+}
+p{
+  font-family: Montserrat, semibold;
+  font-size: 44pt;
+  color: white;
+}

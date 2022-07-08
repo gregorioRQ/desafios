@@ -1,0 +1,47 @@
+@font-face{
+    font-family: coolvetica;
+    src: url(../funtes/coolvetica.ttf);
+}
+
+@font-face{
+    font-family: roboto;
+    src: url(../fuentes/Roboto-Light.ttf)
+}
+
+
+
+h1{
+    font-family: coolvetica, sans-serif;
+    font-size: 120px;
+    color: #0a2ff1;
+    text-align: center;
+}
+
+p{
+    font-family: roboto, sans-serif;
+    font-size: 40px;
+    color: #04146c;
+    width: 788px;
+    text-align: center; 
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+button{
+    display: block;
+    font-size: 40px;
+    font-family: roboto, sans-serif;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    background-color: #0a2ff1;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.boton-abajo{
+    background-color: white;
+    color: black;
+}
