@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <label>INGRESE SU MONTO
+    <input class="ingreso" type="number" name="" value="">
+    <button class="calcular" type="button" name="button">CALCULAR</button>
+    </label>
+
+
+
+
+    <script type="text/javascript">
+
+    let ingreso = document.querySelector(".ingreso");
+    let calcular = document.querySelector(".calcular");
+
+    calcular.addEventListener("click", calculo);
+
+    function calculo() {
+      let primeraNecesidad = 0.5 * ingreso.value;
+      let segundaNecesidad = 0.3 * ingreso.value;
+      let otros = 0.2 * ingreso.value;
+
+      let div = document.createElement("P");
+      let contenido = document.createTextNode("Para primeras necesidades: "+primeraNecesidad+" Para segundas necesidades: "+segundaNecesidad+" Para ahorros: "+otros);
+      div.appendChild(contenido)
+
+      let div1 = document.getElementById("div1");
+      document.body.insertBefore(div, div1);
+      console.log(primeraNecesidad +" "+segundaNecesidad+" "+otros);
+    }
+
+
+
+
+    </script>
+  </body>
+</html>
